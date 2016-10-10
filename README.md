@@ -29,7 +29,8 @@ need libgraphicsmagick-dev to be installed:
 
 Update Node.js
 ```sh
-npm install npm@latest -g
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install nodejs
 ```
 
 Install dependencies
@@ -42,6 +43,13 @@ apt-get install libgraphicsmagick1-dev
 apt-get install graphicsmagick
 ```
 
+# Python Client
+```sh
+source ~/<your_custom_python_environment>/bin/activate
+sh install-python.sh
+```
+
+# Lua Client
 Then simply run:
 
 ```sh
