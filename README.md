@@ -27,6 +27,12 @@ You have to have Node.js (important, Version >= 0.10.0), NPM, and Torch7
 installed. With older versions of Node.js, things won't be stable. You also
 need libgraphicsmagick-dev to be installed:
 
+Update Node.js
+```sh
+npm install npm@latest -g
+```
+
+Install dependencies
 ```sh
 # OS X
 brew install graphicsmagick
